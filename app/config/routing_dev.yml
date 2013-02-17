@@ -25,3 +25,8 @@ _configurator:
 
 _main:
     resource: routing.yml
+
+_simple:
+    resource: "@AcmeDemoBundle/Controller/SimpleController.php"
+    type:     annotation
+    prefix:   /simple
